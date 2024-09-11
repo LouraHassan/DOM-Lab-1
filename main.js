@@ -2,8 +2,8 @@ let title = document.getElementById("title");
 title.style.color = "white";
 title.style.backgroundColor = "blue";
 
-let p1 = document.getElementsByClassName("paragraph")[0];
-subtitle.setAttribute("class", "paragraph");
+let p1 = document.getElementById("subtitle");
+p1.setAttribute("class", "paragraph");
 let seaImg = document.getElementsByTagName("img")[0];
 seaImg.setAttribute("src", "seaimg.jpeg");
 
@@ -14,6 +14,7 @@ let element2 = document.createElement("li");
 let element3 = document.createElement("li");
 
 ul.appendChild(element1);
+
 ul.appendChild(element2);
 ul.appendChild(element3);
 

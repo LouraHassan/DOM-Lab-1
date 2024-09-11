@@ -2,8 +2,8 @@
   font-weight: bold;
 }
 .paragraph {
-  color: purple;
-  background-color: grey;
+  color: rgb(185, 145, 185);
+  background-color: rgb(50, 50, 50);
 }
 
 .list {
